@@ -5,6 +5,7 @@
   "angular-cli": {},
   "scripts": {
     "ng": "ng",
+    "build": "ng build --prod --sm --oh=none",
     "start": "ng serve",
     "test": "ng test",
     "lint": "ng lint",
@@ -15,6 +16,7 @@
     "@angular/common": "^2.4.0",
     "@angular/compiler": "^2.4.0",
     "@angular/core": "^2.4.0",
+    "@angular/material": "2.0.0-beta.2",
     "@angular/forms": "^2.4.0",
     "@angular/http": "^2.4.0",
     "@angular/platform-browser": "^2.4.0",
