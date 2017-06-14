@@ -6,9 +6,9 @@ import { HttpModule } from '@angular/http';
 
 import { AppRoutingModule } from './app-routing.module';
 
-import { MaterialModule } from '@angular/material';
-
 import { AppComponent } from './app.component';
+
+import { CustomMaterialModule } from './shared/custom-material.module';
 
 @NgModule({
   declarations: [
@@ -19,7 +19,7 @@ import { AppComponent } from './app.component';
     BrowserAnimationsModule,
     FormsModule,
     HttpModule,
-    MaterialModule,
+    CustomMaterialModule,
     AppRoutingModule
   ],
   providers: [],

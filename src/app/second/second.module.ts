@@ -4,14 +4,14 @@ import { FormsModule } from '@angular/forms';
 
 import { SecondRoutingModule } from './second-routing.module';
 
-import { MaterialModule } from '@angular/material';
+import { CustomMaterialModule } from './../shared/custom-material.module';
 
 import { SecondComponent } from './second.component';
 
 @NgModule({
   imports: [
     CommonModule,
-    MaterialModule,
+    CustomMaterialModule,
     FormsModule,
     SecondRoutingModule
   ],
