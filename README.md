@@ -1,9 +1,11 @@
 # MatChunkTest
 
 ## BUILD COMMANDS
-`npm run build` - default prod build
-`npm run build:bo` - prod build with build optimizer
-`npm run build:bo:vc` - prod build with build optimizer and vendor chunk
+- `npm run build` - default prod build
+
+- `npm run build:bo` - prod build with build optimizer
+
+- `npm run build:bo:vc` - prod build with build optimizer and vendor chunk
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.0-rc.0.
 
