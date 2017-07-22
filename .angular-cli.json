@@ -52,6 +52,13 @@
   },
   "defaults": {
     "styleExt": "scss",
-    "component": {}
-  }
+    "component": {
+      "changeDetection": "OnPush",
+      "inlineTemplate": true
+    },
+    "build": {
+      "sourcemaps": true
+    }
+  },
+  "packageManager": "yarn"
 }
